@@ -1,0 +1,52 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+p, h1, h2, h3 {
+  color: inherit;
+}
+
+p {
+  font-size: 24px;
+  margin: 5px;
+}
+
+hr {
+  border-color: #333;
+}
+
+select {
+  display: inline;
+  background-color: #333;
+  color: #fff;
+  font-family: "Sans-Serif";
+  font-size: 24px;
+}
+
+input {
+  display: inline;
+  background-color: #333;
+  color: #fff;
+  font-family: "Sans-Serif";
+  font-size: 24px;
+  width: calc(10vw + 25px);
+}
+
+th {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.unitSelectionBox {
+  background-color: #282828;
+  padding: 5px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.unitChoose {
+  width: calc(20vw + 50px);
+}

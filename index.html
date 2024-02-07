@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js" type="module"> </script>
+<title> Unit Converter </title>
+</head>
+<body>
+<h1 class="centerText"> Unit Converter </h1>
+<hr>
+
+<table>
+<tr>
+
+<th>
+<div class="unitSelectionBox">
+<p> From </p>
+
+<input type="number" id="valueChosen" value=1>
+
+<select name="fromUnit" id="fromUnit" class="unitChoose">
+  <option value="centimeter">centimeters</option>
+</select>
+</div>
+</th>
+
+<th>
+<div class="unitSelectionBox">
+<p> To </p>
+<select name="toUnit" id="toUnit" class="unitChoose">
+  <option value="centimeter">centimeters</option>
+</select>
+</div>
+</th>
+
+</tr>
+</table>
+
+<hr>
+
+<p id="var valueElement = document.getElementById("valueChosen");
+var fromElement = document.getElementById("fromUnit");
+var toElement = document.getElementById("toUnit");
+
+valueElement.addEventListener("change", (event) => updateResult);
+fromElement.addEventListener("change", (event) => updateResult);
+toElement.addEventListener("change", (event) => updateResult);"> 1 kilometer = 1 kilometer </p>
+
+</body>
+</html>
