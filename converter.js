@@ -26,5 +26,5 @@ export function convert(value=1, fromUnit="meter", toUnit="meter") {
   if (fUnit.type !== tUnit.type) { // you can't convert kilograms to inches or something
     return undefined;
   }
-  return value * tUnit.factor / fUnit.factor;
+  return value * fUnit.factor / tUnit.factor;
 }
