@@ -16,7 +16,7 @@ hr {
   border-color: #333;
 }
 
-select {
+select, textarea {
   display: inline;
   background-color: #333;
   color: #fff;
@@ -49,4 +49,31 @@ th {
 
 .unitChoose {
   width: calc(20vw + 50px);
+}
+
+#result {
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#customUnits {
+  font-family: monospace;
+  width: calc(90vw);
+  height: calc(25vh);
+}
+
+#customUnitsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#conversionContainer {
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+}
+
+#roundoff {
+  width: calc(30vw + 25px);
 }

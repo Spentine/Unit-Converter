@@ -9,7 +9,8 @@
 <h1 class="centerText"> Unit Converter </h1>
 <hr>
 
-<table>
+<div id="conversionContainer">
+<table style="padding-top: 15px; padding-bottom: 15px;">
 <tr>
 
 <th>
@@ -36,9 +37,24 @@
 </tr>
 </table>
 
+</div>
+
+<p id="result" class="centerText"> 1 meter = 1 meter </p>
+
 <hr>
 
-<p id="result"> 1 kilometer = 1 kilometer </p>
+<h2 class="centerText"> Roundoff </h2>
+<div style="display: flex; justify-content: center;">
+  <input type="number" id="roundoff" value=0>
+</div>
+
+<hr>
+
+<h1 class="centerText"> Custom Units </h1>
+
+<div id="customUnitsContainer">
+<textarea id="customUnits"></textarea>
+</div>
 
 </body>
 </html>
