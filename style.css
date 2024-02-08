@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "Libre Franklin";
+  src: url("LibreFranklin-Medium.ttf");
+}
+
+
 body {
   background-color: #222;
   color: #fff;
+  font-family: "Libre Franklin";
 }
 
 p, h1, h2, h3 {
   color: inherit;
+  font-family: inherit;
 }
 
 p {
@@ -20,7 +28,7 @@ select, textarea {
   display: inline;
   background-color: #333;
   color: #fff;
-  font-family: "Sans-Serif";
+  font-family: inherit;
   font-size: 24px;
 }
 
@@ -28,7 +36,7 @@ input {
   display: inline;
   background-color: #333;
   color: #fff;
-  font-family: "Sans-Serif";
+  font-family: inherit;
   font-size: 24px;
   width: calc(10vw + 25px);
 }
