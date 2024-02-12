@@ -2,9 +2,13 @@
 STANDARD UNITS:
 
 length: meter
+time: second
 */
 
 const standardUnits = {
+  
+  /* LENGTH */
+  
   "meter": ["length", 1, "meters"],
   "kilometer": ["length", 1000, "kilometers"],
   "decimeter": ["length", 0.1, "decimeters"],
@@ -17,6 +21,7 @@ const standardUnits = {
   "attometer": ["length", 1e-18, "attometers"],
   "zeptometer": ["length", 1e-21, "zeptometers"],
   "yoctometer": ["length", 1e-24, "yoctometers"],
+  /*
   "rontometer": ["length", 1e-27, "rontometers"],
   "quectometer": ["length", 1e-30, "quectometers"],
   "decameter": ["length", 10, "decameters"],
@@ -30,6 +35,7 @@ const standardUnits = {
   "yottameter": ["length", 1e24, "yottameters"],
   "ronnameter": ["length", 1e27, "ronnameters"],
   "quettameter": ["length", 1e30, "quettameters"],
+  */
   
   "light-second": ["length", 299792458, "light-seconds"],
   "light-minute": ["length", 17987547480, "light-minutes"],
@@ -44,6 +50,14 @@ const standardUnits = {
   "yard": ["length", 0.9144, "yards"], // foot * 3
   "mile": ["length", 1609.344, "miles"], // foot * 5280
   
+  /* TIME */
+  
+  "second": ["time", 1, "seconds"],
+  "minute": ["time", 60, "minutes"],
+  "hour": ["time", 3600, "hours"],
+  "day": ["time", 86400, "days"],
+  "month": ["time", 2592000, "months"], // 30 day month
+  "year": ["time", 31536000, "years"],
 };
 
 export var data = {};
